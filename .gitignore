@@ -1,0 +1,13 @@
+# Mengabaikan dependensi besar
+node_modules/
+
+# Mengabaikan hasil build frontend
+frontend/dist/
+
+# Mengabaikan file rahasia dan database lokal backend
+backend/.env
+backend/budget.sqlite
+
+# Mengabaikan log error (opsional tapi disarankan)
+npm-debug.log*
+.DS_Store
